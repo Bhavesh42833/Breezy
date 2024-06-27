@@ -79,7 +79,7 @@ const WeatherApp = () => {
 
   const getWeatherIcon = (id) => {
     if (id === 800) return "clear.svg";
-    if (id >= 200 && id <= 232) return "storm.svg";
+    if (id >= 200 && id <= 232) return "strom.svg";
     if (id >= 600 && id <= 622) return "snowy.svg";
     if (id >= 701 && id <= 781) return "haze.svg";
     if (id >= 801 && id <= 804) return "cloudy.svg";
